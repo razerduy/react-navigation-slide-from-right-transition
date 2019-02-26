@@ -56,7 +56,7 @@ function forHorizontal(props) {
 export default function getSlideFromRightTransitionConfig() {
   return {
     transitionSpec: {
-      duration: 500,
+      duration: 350,
       easing: Easing.bezier(0.2833, 0.99, 0.31833, 0.99),
       timing: Animated.timing,
     },
